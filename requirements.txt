@@ -29,7 +29,7 @@ py-pdf-parser==0.13.0
 python-dotenv
 supabase
 python-jose[cryptography]
-bcrypt
-passlib[bcrypt]
+bcrypt==4.0.1
+passlib[bcrypt]==1.7.4
 email-validator
 aiosmtplib
